@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="../style/result.css">
+
+</head>
+<body>
+  <h1>結果画面</h1>
+  <input type="button" onclick="show()" value="show">
+  <input type="button" onclick="score.clearScore()" value="クリア">
+  <article id="group"></article>
+  <article id="imgs"></article>
+
+  <script src="../store/score.js"></script>
+
+    <script src="../store/score.js"></script>
+    <script>
+      /* --- 変数定義 --- */
+      
+      /* --- 初回表示時の処理 --- */
+      // storeの初期化
+      const score = new scoreStore();
+  
+      console.log(score.getScore());
+
+      function show(){
+        console.log(score.getScore());
+      }
+  
+      // バックエンドにscore.geScore()を送る
+      //以下のような実装が予想される
+      // const url = "http://~~"; // リクエスト先のURL
+      // fetch(url, {
+      //     method: "POST",
+      //     headers: {
+      //       "Content-Type": "application/json"
+      //     },
+      //     body: JSON.stringify(score.getScore())
+      //   })
+      //     .then(response => response.json())
+      //     .then(responseData => {});
+
+      
+  
+    </script>
+  </body>
