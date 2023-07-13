@@ -1,156 +1,156 @@
 const QUESTION=
 {
-    "group" : ["花","植物","ダマスク","フェイク","パターン","プレーン","アニマル","イラスト"],
-    "id":["flowers","plants","damask","fake","plane","animal","illustration"],
+    "group" : ["group1_name","group2_name","group3_name","group4_name","group5_name","group6_name","group7_name","group8_name"],
+    "id":["group1_id","group2_id","group3_id","group4_id","group5_id","group6_id","group7_id","group8_id"],
     "questions": {
         "Q1": {
-            "text_que": "一番気分が良い場所はどこですか？",
+            "text_que": "質問1の問題文",
             "A1": {
-                "text_ans": "朝の明るい草原"
+                "text_ans": "質問1の選択肢1"
             },
             "A2": {
-                "text_ans": "夜の静かな動物園"
+                "text_ans": "質問1の選択肢2"
             },
             "A3": {
-                "text_ans": "王様も通う高級カフェ"
+                "text_ans": "質問1の選択肢3"
             },
             "A4": {
-                "text_ans": "仕事終わりの映画館"
+                "text_ans": "質問1の選択肢4"
             }
         },
         "Q2": {
-            "text_que": "自然への印象として一番近いものはなんですか？",
+            "text_que": "質問2の問題文",
             "A1": {
-                "text_ans": "花"                
+                "text_ans": "質問2の選択肢1"
             },
             "A2": {
-                "text_ans": "植物"                
+                "text_ans": "質問2の選択肢2"
             },
             "A3": {
-                "text_ans": "動物"                
+                "text_ans": "質問2の選択肢3"
             },
             "A4": {
-                "text_ans": "岩"              
+                "text_ans": "質問2の選択肢4"
             }
         },
         "Q3": {
-            "text_que": "壁紙を新しくした部屋で行いたいことは？",
+            "text_que": "質問3の問題文",
             "A1": {
-                "text_ans": "リラックスしてくつろぐ"               
+                "text_ans": "質問3の選択肢1"
             },
             "A2": {
-                "text_ans": "手芸や工芸など作成作業をする"                
+                "text_ans": "質問3の選択肢2"
             },
             "A3": {
-                "text_ans": "読書や学習を行う"            
+                "text_ans": "質問3の選択肢3"
             },
             "A4": {
-                "text_ans": "特に何をするかは決めていない"                
+                "text_ans": "質問3の選択肢4"
             }
         },
         "Q4": {
-            "text_que": "天気が良い日は何をしますか？",
+            "text_que": "質問4の問題文",
             "A1": {
-                "text_ans": "外で自然を満喫する"           
+                "text_ans": "質問4の選択肢1"
             },
             "A2": {
-                "text_ans": "家でのんびり過ごす"           
+                "text_ans": "質問4の選択肢2"
             },
             "A3": {
-                "text_ans": "スポーツをする"           
+                "text_ans": "質問4の選択肢3"
             },
             "A4": {
-                "text_ans": "友人を自宅に招待する"               
+                "text_ans": "質問4の選択肢4"
             }
         },
         "Q5": {
-            "text_que": "好きな色は何色ですか？",
+            "text_que": "質問5の問題文",
             "A1": {
-                "text_ans": "青"           
+                "text_ans": "質問5の選択肢1"
             },
             "A2": {
-                "text_ans": "緑"            
+                "text_ans": "質問5の選択肢2"
             },
             "A3": {
-                "text_ans": "赤"             
+                "text_ans": "質問5の選択肢3"
             },
             "A4": {
-                "text_ans": "他の色"           
+                "text_ans": "質問5の選択肢4"
             }
         },
         "Q6": {
-            "text_que": "自宅にはどのようなインテリアが多いですか？",
+            "text_que": "質問6の問題文",
             "A1": {
-                "text_ans": "白や黒のシンプルなデザイン"             
+                "text_ans": "質問6の選択肢1"
             },
             "A2": {
-                "text_ans": "自然を感じるデザイン"
+                "text_ans": "質問6の選択肢2"
             },
             "A3": {
-                "text_ans": "カラフルでポップなデザイン"            
+                "text_ans": "質問6の選択肢3"
             },
             "A4": {
-                "text_ans": "クラシックなデザイン"               
+                "text_ans": "質問6の選択肢4"
             }
         },
         "Q7": {
-            "text_que": "あなたが魅力を感じるのはどれですか？",
+            "text_que": "質問7の問題文",
             "A1": {
-                "text_ans": "最新で斬新なスタイル"               
+                "text_ans": "質問7の選択肢1"
             },
             "A2": {
-                "text_ans": "伝統的でクラシック"                
+                "text_ans": "質問7の選択肢2"
             },
             "A3": {
-                "text_ans": "無駄のないシンプルさ"
+                "text_ans": "質問7の選択肢3"
             },
             "A4": {
-                "text_ans": "可愛らしい雰囲気"            
+                "text_ans": "質問7の選択肢4"
             }
         },
         "Q8": {
-            "text_que": "どんな質感が好みですか？",
+            "text_que": "質問8の問題文",
             "A1": {
-                "text_ans": "手触りのいい滑らかな質感"       
+                "text_ans": "質問8の選択肢1"
             },
             "A2": {
-                "text_ans": "立体感のある質感"               
+                "text_ans": "質問8の選択肢2"
             },
             "A3": {
-                "text_ans": "つやつやして光沢のある質感"            
+                "text_ans": "質問8の選択肢3"
             },
             "A4": {
-                "text_ans": "しっとりとした質感"
+                "text_ans": "質問8の選択肢4"
             }
         },
         "Q9": {
-            "text_que": "旅行に行くならどんな場所がよいですか？",
+            "text_que": "質問9の問題文",
             "A1": {
-                "text_ans": "海の綺麗なリゾート"
+                "text_ans": "質問9の選択肢1"
             },
             "A2": {
-                "text_ans": "世界遺産"
+                "text_ans": "質問9の選択肢2"
             },
             "A3": {
-                "text_ans": "賑やかな繁華街"
+                "text_ans": "質問9の選択肢3"
             },
             "A4": {
-                "text_ans": "自然あふれるレジャースポット"
+                "text_ans": "質問9の選択肢4"
             }
         },
         "Q10": {
-            "text_que": "自分の暮らしにどんなことを求めますか？",
+            "text_que": "質問10の問題文",
             "A1": {
-                "text_ans": "心躍る体験"   
+                "text_ans": "質問10の選択肢1"
             },
             "A2": {
-                "text_ans": "リラックスしてくつろぐ"
+                "text_ans": "質問10の選択肢2"
             },
             "A3": {
-                "text_ans": "新たな発見"
+                "text_ans": "質問10の選択肢3"
             },
             "A4": {
-                "text_ans": "変わらない平穏"
+                "text_ans": "質問10の選択肢4"
             }
         }
     }
