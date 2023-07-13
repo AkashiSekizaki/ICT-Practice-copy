@@ -1,1 +1,2 @@
-# wall_paper_frontend
+# 高度ICT演習
+※具体的な質問とその選択肢は削除しました。
